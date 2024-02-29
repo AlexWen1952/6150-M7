@@ -1,0 +1,31 @@
+body {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	color: #151414;
+	background-color: #c6f470bd;
+}
+
+h1,
+h2,
+p {
+	margin-bottom: 15px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body.high-contrast {
+	color: #fff;
+	background-color: #333;
+}
+
+.contrast-toggle {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #007BFF;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
